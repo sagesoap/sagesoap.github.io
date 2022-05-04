@@ -14,10 +14,10 @@
   --theme-color: #333;
   --btn-default-bg: transparent;
   --btn-default-color: #555;
-  --btn-default-border-color: #E9CCCE;
-  --btn-default-hover-bg: #E9CCCE;
+  --btn-default-border-color: #BF8991;
+  --btn-default-hover-bg: #BF8991;
   --btn-default-hover-color: #fff;
-  --btn-default-hover-border-color: #E9CCCE;
+  --btn-default-hover-border-color: #BF8991;
   --highlight-background: #f3f3f3;
   --highlight-foreground: #444;
   --highlight-gutter-background: #e1e1e1;
@@ -41,10 +41,10 @@
     --theme-color: #222;
     --btn-default-bg: #222;
     --btn-default-color: #ccc;
-    --btn-default-border-color: #E9CCCE;
-    --btn-default-hover-bg: #E9CCCE;
+    --btn-default-border-color: #BF8991;
+    --btn-default-hover-bg: #BF8991;
     --btn-default-hover-color: #ccc;
-    --btn-default-hover-border-color: #E9CCCE;
+    --btn-default-hover-border-color: #BF8991;
     --highlight-background: #1c1b1b;
     --highlight-foreground: #fff;
     --highlight-gutter-background: #323131;
@@ -2871,12 +2871,12 @@ mark.search-keyword {
   display: block;
 }
 .links-of-author-item a:hover {
-  background: var(--body-bg-color);
+  background: #EEC7C6;
 }
 .main-inner {
-  background: var(--content-bg-color);
+  background: rgba(255,255,255,0) none repeat scroll !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .06), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 -1px .5px 0 rgba(0, 0, 0, .09);
-  padding: 40px;
+  padding: 0px;
 }
 @media (max-width: 991px) {
   .main-inner {
@@ -2903,11 +2903,11 @@ body {
 .content-wrap {
   opacity: 0.8;
 }
-//.main-inner {
+.main-inner {
    // margin-top: 0px;
    // padding: 0px 0px 0px 0px;
    // background: rgba(255,255,255,0) none repeat scroll !important;
-//}
+}
 .post-block {
   background: rgba(255,255,255,0.6) none repeat scroll !important;
 }
