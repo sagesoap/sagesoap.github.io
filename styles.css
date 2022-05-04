@@ -7,6 +7,11 @@ body {
 .content-wrap {
   opacity: 0.8;
 }
+//.main-inner {
+   // margin-top: 60px;
+   // padding: 60px 60px 60px 60px;
+   // opacity: 0.6;
+//}
 .post-block {
   background: rgba(255,255,255,0.6) none repeat scroll !important;
 }
