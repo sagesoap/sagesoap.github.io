@@ -2647,7 +2647,7 @@ mark.search-keyword {
   width: calc(100% - 287px);
   background: rgba(255,255,255,0.6) none repeat scroll !important;
   margin-top: 0px;
-  padding: 0px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
 }
 @media (max-width: 991px) {
   .main-inner {
@@ -2918,7 +2918,7 @@ body {
 }
 .main-inner {
   margin-top: 0px;
-  padding: 0px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
   background: rgba(255,255,255,0) none repeat scroll !important;
 }
 .post-block {
@@ -2944,7 +2944,7 @@ body {
 }
 .main-inner {
   margin-top: 0px;
-  padding: 0px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
   background: rgba(255,255,255,0) none repeat scroll !important;
 }
 .post-block {
