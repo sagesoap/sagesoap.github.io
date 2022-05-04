@@ -2646,8 +2646,8 @@ mark.search-keyword {
   box-sizing: border-box;
   width: calc(100% - 287px);
   background: rgba(255,255,255,0.6) none repeat scroll !important;
-  margin-top: 0px;
-  padding: 0px 0px 10px 10px;
+  margin-top: 5px;
+  padding: 0px 0px 0px 0px;
 }
 @media (max-width: 991px) {
   .main-inner {
@@ -2917,8 +2917,8 @@ body {
   opacity: 1;
 }
 .main-inner {
-  margin-top: 0px;
-  padding: 0px 0px 10px 10px;
+  margin-top: 5px;
+  padding: 0px 0px 0px 0px;
   background: rgba(255,255,255,0) none repeat scroll !important;
 }
 .post-block {
@@ -2943,8 +2943,8 @@ body {
   opacity: 1;
 }
 .main-inner {
-  margin-top: 0px;
-  padding: 0px 0px 10px 10px;
+  margin-top: 5px;
+  padding: 0px 0px 0px 0px;
   background: rgba(255,255,255,0) none repeat scroll !important;
 }
 .post-block {
