@@ -14,10 +14,10 @@
   --theme-color: #333;
   --btn-default-bg: transparent;
   --btn-default-color: #555;
-  --btn-default-border-color: #555;
-  --btn-default-hover-bg: #555;
+  --btn-default-border-color: #E9CCCE;
+  --btn-default-hover-bg: #E9CCCE;
   --btn-default-hover-color: #fff;
-  --btn-default-hover-border-color: #bbb;
+  --btn-default-hover-border-color: #E9CCCE;
   --highlight-background: #f3f3f3;
   --highlight-foreground: #444;
   --highlight-gutter-background: #e1e1e1;
@@ -41,10 +41,10 @@
     --theme-color: #222;
     --btn-default-bg: #222;
     --btn-default-color: #ccc;
-    --btn-default-border-color: #555;
-    --btn-default-hover-bg: #666;
+    --btn-default-border-color: #E9CCCE;
+    --btn-default-hover-bg: #E9CCCE;
     --btn-default-hover-color: #ccc;
-    --btn-default-hover-border-color: #666;
+    --btn-default-hover-border-color: #E9CCCE;
     --highlight-background: #1c1b1b;
     --highlight-foreground: #fff;
     --highlight-gutter-background: #323131;
@@ -2660,7 +2660,7 @@ mark.search-keyword {
 .header-inner {
   background: var(--content-bg-color);
   border-radius: initial;
-  box-shadow: initial;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .06), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 -1px .5px 0 rgba(0, 0, 0, .09);
   width: 240px;
 }
 @media (max-width: 991px) {
@@ -2825,7 +2825,7 @@ mark.search-keyword {
 .sidebar-inner {
   background: var(--content-bg-color);
   border-radius: initial;
-  box-shadow: initial;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .06), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 -1px .5px 0 rgba(0, 0, 0, .09);
   box-sizing: border-box;
   color: var(--text-color);
 }
@@ -2875,7 +2875,7 @@ mark.search-keyword {
 }
 .main-inner {
   background: var(--content-bg-color);
-  box-shadow: initial;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .06), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 -1px .5px 0 rgba(0, 0, 0, .09);
   padding: 40px;
 }
 @media (max-width: 991px) {
@@ -2904,9 +2904,9 @@ body {
   opacity: 0.8;
 }
 //.main-inner {
-   // margin-top: 60px;
-   // padding: 60px 60px 60px 60px;
-   // opacity: 0.6;
+   // margin-top: 0px;
+   // padding: 0px 0px 0px 0px;
+   // background: rgba(255,255,255,0) none repeat scroll !important;
 //}
 .post-block {
   background: rgba(255,255,255,0.6) none repeat scroll !important;
@@ -2918,5 +2918,5 @@ body {
   background: rgba(255,255,255,0.6);
 }
 .popup {
-  opacity: 0.8;
+  opacity: 0.6;
 }
