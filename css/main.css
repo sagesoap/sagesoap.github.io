@@ -1734,8 +1734,8 @@ pre code {
 }
 .reading-progress-bar {
   --progress: 0;
-  background: #37c6c0;
-  height: 3px;
+  background: #bf8991;
+  height: 4px;
   position: fixed;
   z-index: 50;
   width: var(--progress);
