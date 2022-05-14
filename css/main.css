@@ -2154,8 +2154,8 @@ pre code {
 .post-copyright ul {
   list-style: none;
   padding: 0.5em 1em;
-  background: var(--card-bg-color);
-  border-left: 3px solid #ff2a2a;
+  background: rgba(255,255,255,0.6);
+  border-left: 3px solid #bf8991;
   margin: 1em 0 0;
 }
 .post-tags {
@@ -2472,6 +2472,9 @@ ul.breadcrumb li:last-child {
 .tag-cloud-10 {
   border-bottom-color: #111;
   color: #111;
+}
+.utterances {
+  max-width: unset;
 }
 .search-active {
   overflow: hidden;
@@ -2958,4 +2961,7 @@ body {
 }
 .popup {
   opacity: 0.6;
+}
+.comments.utterances-container {
+  background: rgba(255,255,255,0.6);
 }
