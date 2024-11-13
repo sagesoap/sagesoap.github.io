@@ -5,7 +5,7 @@
   --text-color: #555;
   --blockquote-color: #666;
   --link-color: #555;
-  --link-hover-color: #bf7d86;
+  --link-hover-color: #222;
   --brand-color: #fff;
   --brand-hover-color: #fff;
   --table-row-odd-bg-color: #f9f9f9;
@@ -1424,16 +1424,16 @@ pre code {
   margin-left: 10px;
 }
 .sidebar-nav li:hover {
-  color: #bf7d86;
+  color: #bf8991;
 }
 .sidebar-toc-active .sidebar-nav-toc,
 .sidebar-overview-active .sidebar-nav-overview {
-  border-bottom-color: #bf7d86;
-  color: #bf7d86;
+  border-bottom-color: #bf8991;
+  color: #bf8991;
 }
 .sidebar-toc-active .sidebar-nav-toc:hover,
 .sidebar-overview-active .sidebar-nav-overview:hover {
-  color: #bf7d86;
+  color: #bf8991;
 }
 .sidebar-panel-container {
   flex: 1;
@@ -1477,7 +1477,7 @@ pre code {
   }
 }
 .sidebar-toggle:hover .toggle-line {
-  background: #bf7d86;
+  background: #bf8991;
 }
 @media (any-hover: hover) {
   body:not(.sidebar-active) .sidebar-toggle:hover .toggle-line:first-child {
@@ -1538,14 +1538,14 @@ pre code {
   display: block;
 }
 .post-toc .nav .active > a {
-  border-bottom-color: #bf7d86;
-  color: #bf7d86;
+  border-bottom-color: #bf8991;
+  color: #bf8991;
 }
 .post-toc .nav .active-current > a {
-  color: #bf7d86;
+  color: #bf8991;
 }
 .post-toc .nav .active-current > a:hover {
-  color: #bf7d86;
+  color: #bf8991;
 }
 .site-state {
   display: flex;
@@ -1727,7 +1727,7 @@ pre code {
   }
 }
 .back-to-top:hover {
-  color: #bf7d86;
+  color: #bf8991;
 }
 .back-to-top.back-to-top-on {
   bottom: 30px;
@@ -2154,7 +2154,7 @@ pre code {
 .post-copyright ul {
   list-style: none;
   padding: 0.5em 1em;
-  background: rgba(255,255,255,0.6);
+  background: var(--card-bg-color);
   border-left: 3px solid #bf8991;
   margin: 1em 0 0;
 }
@@ -2194,18 +2194,18 @@ pre code {
 }
 .reward-container button {
   background: transparent;
-  color: #bf7d86;
+  color: #bf8991;
   cursor: pointer;
   line-height: 2;
   padding: 0 15px;
-  border: 2px solid #bf7d86;
+  border: 2px solid #bf8991;
   border-radius: 2px;
   outline: 0;
   transition: all 0.2s ease-in-out;
   vertical-align: text-top;
 }
 .reward-container button:hover {
-  background: #bf7d86;
+  background: #bf8991;
   color: #fff;
 }
 .post-reward {
@@ -2610,9 +2610,9 @@ mark.search-keyword {
   animation-fill-mode: both;
 }
 .header-inner {
-  background: rgba(255,255,255,0.6) none repeat scroll !important;
+  background: var(--content-bg-color);
   border-radius: initial;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
   width: 275px;
 }
 @media (max-width: 991px) {
@@ -2648,9 +2648,6 @@ mark.search-keyword {
   border-radius: initial;
   box-sizing: border-box;
   width: calc(100% - 287px);
-  background: rgba(255,255,255,0.6) none repeat scroll !important;
-  margin-top: 0px;
-  padding: 5px 5px 5px 5px;
 }
 @media (max-width: 991px) {
   .main-inner {
@@ -2673,7 +2670,7 @@ mark.search-keyword {
 }
 @media (max-width: 991px) {
   .site-nav-on .site-brand-container {
-    box-shadow: 1px 1px 16px rgba(0,0,0,0.5);
+    box-shadow: 0 0 16px rgba(0,0,0,0.5);
   }
 }
 .site-meta {
@@ -2731,9 +2728,9 @@ mark.search-keyword {
   }
 }
 .menu .menu-item .badge {
-  background: #e9ccce;
+  background: #ccc;
   border-radius: 10px;
-  color: #f5f5f5;
+  color: var(--content-bg-color);
   float: right;
   padding: 2px 5px;
   text-shadow: 1px 1px 0 rgba(0,0,0,0.1);
@@ -2752,14 +2749,14 @@ mark.search-keyword {
 }
 .sub-menu .menu-item a:hover {
   background: transparent;
-  color: #bf7d86;
+  color: #bf8991;
 }
 .sub-menu .menu-item-active {
-  border-bottom-color: #bf7d86;
-  color: #bf7d86;
+  border-bottom-color: #bf8991;
+  color: #bf8991;
 }
 .sub-menu .menu-item-active:hover {
-  border-bottom-color: #bf7d86;
+  border-bottom-color: #bf8991;
 }
 .sidebar {
   margin-top: 12px;
@@ -2778,7 +2775,7 @@ mark.search-keyword {
   display: none;
 }
 .sidebar-inner {
-  background: rgba(255,255,255,0.6) none repeat scroll !important;
+  background: var(--content-bg-color);
   border-radius: initial;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
   box-sizing: border-box;
@@ -2788,19 +2785,19 @@ mark.search-keyword {
   padding: 0 10px;
 }
 .sidebar .sidebar-button {
-  border-bottom: 1px dotted #ccc;
-  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #bf8991;
+  border-top: 1px dotted #bf8991;
 }
 .sidebar .sidebar-button button {
   border: 0;
-  color: #fc6423;
+  color: #bf8991;
   display: block;
   width: 100%;
 }
 .sidebar .sidebar-button button:hover {
   background: none;
   border: 0;
-  color: #e34603;
+  color: #a85e69;
 }
 .links-of-author {
   display: flex;
@@ -2826,16 +2823,16 @@ mark.search-keyword {
   display: block;
 }
 .links-of-author-item a:hover {
-  background: #e9ccce;
+  background: #dbadb3;
 }
 .main-inner > .sub-menu,
 .main-inner > .post-block,
 .main-inner > .tabs-comment,
 .main-inner > .comments,
 .main-inner > .pagination {
-  background: rgba(255,255,255,0.6) none repeat scroll !important;
+  background: var(--content-bg-color);
   border-radius: initial;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
 }
 .main-inner > .sub-menu:not(:first-child):not(.sub-menu),
 .main-inner > .post-block:not(:first-child):not(.sub-menu),
@@ -2909,32 +2906,6 @@ mark.search-keyword {
   .comments {
     padding: 10px 12px;
   }
-}
-body {
-  background: url("/images/back8.jpg");
-  background-repeat: repeat;
-  background-attachment: no-fixed;
-  background-position: 50% 50%;
-}
-.content-wrap {
-  opacity: 1;
-}
-.main-inner {
-  margin-top: 0px;
-  padding: 5px 5px 5px 5px;
-  background: rgba(255,255,255,0) none repeat scroll !important;
-}
-.post-block {
-  background: rgba(255,255,255,0.6) none repeat scroll !important;
-}
-.sidebar-inner {
-  background: rgba(255,255,255,0.6) none repeat scroll !important;
-}
-.header-inner {
-  background: rgba(255,255,255,0.6);
-}
-.popup {
-  opacity: 0.6;
 }
 body {
   background: url("/images/back8.jpg");
